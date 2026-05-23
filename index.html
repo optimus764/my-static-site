@@ -2,18 +2,49 @@
 <html lang="uk">
 <head>
     <meta charset="UTF-8">
-    <title>Мій сайт - Єлизавета Гавука</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ЛР №6 - Гавука Єлизавета</title>
     <style>
-        body { font-family: sans-serif; text-align: center; background-color: #f0f8ff; padding: 50px; }
-        h1 { color: #2c3e50; }
-        img { border-radius: 15px; box-shadow: 0 4px 8px rgba(0,0,0,0.2); }
+        body { 
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+            text-align: center; 
+            background-color: #f4f7f9; 
+            color: #333;
+            padding: 50px; 
+        }
+        .container {
+            background-color: white;
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 30px;
+            border-radius: 20px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+        }
+        h1 { color: #0051ad; margin-bottom: 10px; }
+        p { font-size: 1.1em; line-height: 1.6; }
+        .highlight { font-weight: bold; color: #f38020; }
+        img { 
+            margin-top: 20px;
+            border-radius: 50%; 
+            border: 5px solid #e1e8ed;
+            object-fit: cover; 
+        }
+        .footer { margin-top: 30px; font-size: 0.9em; color: #777; }
     </style>
 </head>
 <body>
-    <h1>Візитка студентки ІН-303</h1>
-    <p>Привіт! Мене звати Гавука Єлизавета.</p>
-    <p>Це мій перший сайт, розгорнутий у Cloudflare Pages через GitHub.</p>
-    <br>
-    <img src="avatar.jpg" alt="Мій аватар" width="250">
+    <div class="container">
+        <h1>Лабораторна робота №6</h1>
+        <p>Роботу виконала студентка групи ІН-303</p>
+        <p class="highlight">Гавука Єлизавета</p>
+        <hr style="border: 0; height: 1px; background: #eee; margin: 20px 0;">
+        <p>Сайт розгорнуто за допомогою сервісу <br> <strong>Cloudflare Pages</strong> через інтеграцію з <strong>GitHub</strong>.</p>
+        
+        <img src="avatar.jpg" alt="Моє фото" width="180" height="180">
+        
+        <div class="footer">
+            © Інформаційні системи з використанням хмарних технологій 
+        </div>
+    </div>
 </body>
 </html>
